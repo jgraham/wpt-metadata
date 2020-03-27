@@ -9,3 +9,8 @@ links:
   - test: flex-minimum-width-flex-items-004.xht
   - test: flex-minimum-width-flex-items-006.xht
   url: https://bugzilla.mozilla.org/show_bug.cgi?id=1500492
+- product: firefox
+  results:
+  - subtest: abbr 1
+    test: flex-flow-auto-margins-no-available-space-assert.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1625388
