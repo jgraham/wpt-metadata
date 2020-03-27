@@ -9,3 +9,30 @@ links:
   - test: flex-minimum-width-flex-items-004.xht
   - test: flex-minimum-width-flex-items-006.xht
   url: https://bugzilla.mozilla.org/show_bug.cgi?id=1500492
+- product: firefox
+  results:
+  - subtest: .flexbox, .inline-flexbox 11
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 10
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 3
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 2
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 1
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 14
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 6
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 5
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 4
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 13
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 9
+    test: flexbox-overflow-auto-002.html
+  - subtest: .flexbox, .inline-flexbox 12
+    test: flexbox-overflow-auto-002.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1625521
