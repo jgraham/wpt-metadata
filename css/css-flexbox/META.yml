@@ -9,3 +9,7 @@ links:
   - test: flex-minimum-width-flex-items-004.xht
   - test: flex-minimum-width-flex-items-006.xht
   url: https://bugzilla.mozilla.org/show_bug.cgi?id=1500492
+- product: firefox
+  results:
+  - test: cross-axis-scrollbar.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1625761
