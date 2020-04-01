@@ -9,3 +9,12 @@ links:
   - test: flex-minimum-width-flex-items-004.xht
   - test: flex-minimum-width-flex-items-006.xht
   url: https://bugzilla.mozilla.org/show_bug.cgi?id=1500492
+- product: firefox
+  results:
+  - subtest: .flexbox 10
+    test: flex-aspect-ratio-img-column-011.html
+  - subtest: .flexbox 5
+    test: flex-aspect-ratio-img-column-011.html
+  - subtest: .flexbox 7
+    test: flex-aspect-ratio-img-column-011.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1626559
