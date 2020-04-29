@@ -11,3 +11,25 @@ links:
   - subtest: BODY element scroll-behavior should not propagate to viewport
     test: scroll-behavior-smooth.html
   url: https://bugzilla.mozilla.org/show_bug.cgi?id=1556685
+- product: firefox
+  results:
+  - subtest: 'Partial interface MouseEvent: member names are unique'
+    test: idlharness.html
+  - subtest: 'CSSPseudoElement interface: operation convertPointFromNode(DOMPointInit,
+      GeometryNode, optional ConvertCoordinateOptions)'
+    test: idlharness.html
+  - subtest: 'Screen interface: existence and properties of interface object'
+    test: idlharness.html
+  - subtest: 'CSSPseudoElement interface: operation convertRectFromNode(DOMRectReadOnly,
+      GeometryNode, optional ConvertCoordinateOptions)'
+    test: idlharness.html
+  - subtest: 'Partial dictionary MouseEventInit: member names are unique'
+    test: idlharness.html
+  - subtest: 'CSSPseudoElement interface: operation convertQuadFromNode(DOMQuadInit,
+      GeometryNode, optional ConvertCoordinateOptions)'
+    test: idlharness.html
+  - subtest: 'Screen interface: existence and properties of interface prototype object'
+    test: idlharness.html
+  - subtest: 'CSSPseudoElement interface: operation getBoxQuads(optional BoxQuadOptions)'
+    test: idlharness.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1634112
