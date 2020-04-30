@@ -1,0 +1,10 @@
+links:
+- product: firefox
+  results:
+  - subtest: 'DOMPoint interface: legacy window alias'
+    test: idlharness.html
+  - subtest: 'DOMRect interface: legacy window alias'
+    test: idlharness.html
+  - subtest: 'DOMMatrix interface: legacy window alias'
+    test: idlharness.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1634355
