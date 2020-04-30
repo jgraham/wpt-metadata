@@ -3,3 +3,10 @@ links:
   results:
   - test: grid-alignment-style-changes-003.html
   url: https://bugzilla.mozilla.org/show_bug.cgi?id=1500630
+- product: firefox
+  results:
+  - subtest: .grid 1
+    test: grid-align-baseline-vertical.html
+  - subtest: .grid 2
+    test: grid-align-baseline.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1634309
