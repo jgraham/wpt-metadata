@@ -1,0 +1,8 @@
+links:
+- product: firefox
+  results:
+  - test: position-sticky-nested-table.html
+  - test: position-sticky-writing-modes.html
+  - test: position-sticky-fixed-ancestor.html
+  - test: position-sticky-table-parts.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1634350
