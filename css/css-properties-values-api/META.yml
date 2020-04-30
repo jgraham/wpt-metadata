@@ -1,0 +1,14 @@
+links:
+- product: firefox
+  results:
+  - subtest: '@property removal detected with removal of first stylesheet'
+    test: at-property-stylesheets.html
+  - subtest: '@property removal detected when last @property rule disappears'
+    test: at-property-stylesheets.html
+  - subtest: '@property detected when stylesheet appears'
+    test: at-property-stylesheets.html
+  - subtest: '@property removal detected with removal of second stylesheet'
+    test: at-property-stylesheets.html
+  - subtest: '@property detected in second stylesheet'
+    test: at-property-stylesheets.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1634383
