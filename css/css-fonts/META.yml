@@ -10,3 +10,68 @@ links:
   - status: FAIL
     test: font-synthesis-04.html
   url: https://bugs.chromium.org/p/chromium/issues/detail?id=509989
+- product: firefox
+  results:
+  - subtest: 'CSSFontFeatureValuesRule interface: attribute styleset'
+    test: idlharness.html
+  - subtest: 'CSSRule interface: constant FONT_PALETTE_VALUES_RULE on interface object'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesRule interface: attribute swash'
+    test: idlharness.html
+  - subtest: 'CSSFontPaletteValuesRule interface: existence and properties of interface
+      prototype object''s @@unscopables property'
+    test: idlharness.html
+  - subtest: CSSFontFeatureValuesMap interface object length
+    test: idlharness.html
+  - subtest: 'CSSRule interface: cssRule must inherit property "FONT_PALETTE_VALUES_RULE"
+      with the proper type'
+    test: idlharness.html
+  - subtest: CSSFontPaletteValuesRule interface object length
+    test: idlharness.html
+  - subtest: CSSFontPaletteValuesRule interface object name
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesMap interface: existence and properties of interface
+      prototype object''s @@unscopables property'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesMap interface: existence and properties of interface
+      prototype object'
+    test: idlharness.html
+  - subtest: 'CSSFontPaletteValuesRule interface: existence and properties of interface
+      prototype object'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesMap interface: operation set(CSSOMString, (unsigned
+      long or sequence<unsigned long>))'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesRule interface: attribute characterVariant'
+    test: idlharness.html
+  - subtest: 'CSSFontPaletteValuesRule interface: attribute fontFamily'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesRule interface: attribute ornaments'
+    test: idlharness.html
+  - subtest: 'CSSRule interface: cssFontFaceRule must inherit property "FONT_PALETTE_VALUES_RULE"
+      with the proper type'
+    test: idlharness.html
+  - subtest: 'CSSRule interface: constant FONT_PALETTE_VALUES_RULE on interface prototype
+      object'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesMap interface: existence and properties of interface
+      prototype object''s "constructor" property'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesRule interface: attribute stylistic'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesRule interface: attribute annotation'
+    test: idlharness.html
+  - subtest: 'CSSFontPaletteValuesRule interface: existence and properties of interface
+      object'
+    test: idlharness.html
+  - subtest: 'CSSFontFeatureValuesMap interface: existence and properties of interface
+      object'
+    test: idlharness.html
+  - subtest: 'CSSFontPaletteValuesRule interface: attribute basePalette'
+    test: idlharness.html
+  - subtest: CSSFontFeatureValuesMap interface object name
+    test: idlharness.html
+  - subtest: 'CSSFontPaletteValuesRule interface: existence and properties of interface
+      prototype object''s "constructor" property'
+    test: idlharness.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1634400

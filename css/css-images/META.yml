@@ -1,0 +1,6 @@
+links:
+- product: firefox
+  results:
+  - subtest: 'CSS namespace: attribute elementSources'
+    test: idlharness.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1634399
