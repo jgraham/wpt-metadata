@@ -1,0 +1,6 @@
+links:
+- product: firefox
+  results:
+  - test: white-space-intrinsic-size-013.html
+  - test: white-space-intrinsic-size-014.html
+  url: https://bugzilla.mozilla.org/show_bug.cgi?id=1634314
